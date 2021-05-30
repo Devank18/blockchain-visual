@@ -80,7 +80,6 @@ console.log("new entry added in the ledger> ", dataBlock);
 console.log("BLOCKCHAIN LEDGER STATUS");
 console.log(blockchain);
 
-
 function generateHash(data) {
   const crypto = require('crypto'),
     hash = crypto.getHashes();
