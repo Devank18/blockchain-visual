@@ -1,0 +1,30 @@
+div.InputFormContainer > form.input-form {
+  margin-top: 1.6em;
+  padding: 1.6em;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div.InputFormContainer > form.input-form > div.form-input {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+label.input-label {
+  color: var(--color-black);
+}
+
+input.input-box, select.input-select {
+  padding: 0.6em;
+  border-radius: var(--border-radius);
+  border: var(--border);
+  margin-right: 1em;
+}
+
+input.input-box:focus, select.input-select:focus {
+  outline: none !important;
+}
+/*# sourceMappingURL=style.css.map */

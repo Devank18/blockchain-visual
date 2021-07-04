@@ -1,0 +1,42 @@
+
+// importing variables module
+@import url('./variables/variables.css');
+
+// importing google fonts
+// DM SANS
+// @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  background-color: #f8f8f8;
+}
+
+a, .link {
+  text-decoration: none;
+  padding-right: 3.6px;
+  padding-left: 3.6px;
+  color: var(--color-blue);
+  &:hover {
+    background-color: #5b5bff7e;
+    color: var(--color-black);
+    border-bottom: 0.4px solid var(--color-blue);
+  }
+}
+
+button.primary-button {
+  text-align: center;
+  padding: 0.6em;
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--color-blue);
+  color: white;
+  font-family: inherit;
+}

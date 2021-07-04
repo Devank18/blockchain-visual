@@ -1,0 +1,23 @@
+div.Home {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 46% auto;
+      grid-template-columns: 46% auto;
+}
+
+div.Home > div.info-container > div.introduction-section {
+  margin-top: 3.6em;
+}
+
+div.Home > div.info-container > div.introduction-section > h2 {
+  font-size: 36px;
+  margin-bottom: 1.2em;
+  color: var(--color-black);
+}
+
+div.Home > div.info-container > div.introduction-section > p.introduction-content {
+  text-align: justify;
+  font-size: 14px;
+  color: var(--color-black);
+}
+/*# sourceMappingURL=style.css.map */
