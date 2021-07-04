@@ -5,12 +5,14 @@ div.InputFormContainer {
     padding: 1.6em;
     overflow: hidden;
     box-sizing: border-box;
-
-    > div.form-input {
-      display: grid;
-      grid-template-columns: auto;
-    }
   }
+}
+
+div.form-input {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
 }
 
 label.input-label {

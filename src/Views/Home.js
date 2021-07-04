@@ -13,7 +13,7 @@ export default class Home extends React.Component {
             <p className="introduction-content">
               This project is mainly focused on teaching people the basics for Blockchain technology using visuals. This project is developed using React JS.
               You just have to create a new transaction by adding details for the same and there will be a new block created for that which will be having your details and unique hash-address.
-              Feel free to play around this application. If you would like to contribute to this project, <a href="https://github.com/yashsehgal/blockchain-visual">check it on github.</a>
+              Feel free to play around this application. If you would like to contribute to this project, <a href="https://github.com/yashsehgal/blockchain-visual" target="_blank">check it on github.</a>
             </p>
           </div>
           <InputFormContainer />

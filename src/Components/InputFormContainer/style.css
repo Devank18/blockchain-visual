@@ -6,11 +6,13 @@ div.InputFormContainer > form.input-form {
           box-sizing: border-box;
 }
 
-div.InputFormContainer > form.input-form > div.form-input {
+div.form-input {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
 }
 
 label.input-label {
